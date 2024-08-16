@@ -8,13 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Pietro Girotto </span>
+            from <span className="purple"> Padua, Italy.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently attending the last year of my Master's Degree in Computer Science at the University of Padua,
+            specializing in Artificial Intelligence and Robotics.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have already completed a Bachelor's Degree in Computer Science at the University of Padua
+            with honours and worked as an Automation Specialist Inter at
+            <b className="purple">Uber</b> at the beginning of this year.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
