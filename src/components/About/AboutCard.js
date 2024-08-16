@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { VscDebugBreakpointFunctionUnverified as TriangleIcon } from "react-icons/vsc";
 
 function AboutCard() {
   return (
@@ -16,27 +16,22 @@ function AboutCard() {
             <br />
             I have already completed a Bachelor's Degree in Computer Science at the University of Padua
             with honours and worked as an Automation Specialist Inter at
-            <b className="purple">Uber</b> at the beginning of this year.
+            <b className="purple"> Uber</b> at the beginning of this year.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            In my free time there are also some other activities that I like to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <TriangleIcon /> Trekking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <TriangleIcon /> Ambulance Volunteer
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <TriangleIcon /> Camping
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
