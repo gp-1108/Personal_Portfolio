@@ -25,6 +25,7 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
+- Docker
 
 ## Features
 
@@ -40,13 +41,16 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Clone the repo ```git clone https://github.com/gp-1108/Personal_Portfolio.git```
+2. Build the docker image ```docker build -t portfolio:webapps```
+3. Run the docker container ```docker run -d -p 5000:5000 -v <path to certs>:/certs portfolio:webapps```
+4. Visit the website at ```https://localhost:5000```
 
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## How to get the SSL certificates
+This project uses SSL certificates to secure the connection. You can generate your own certificates for local usage:
+```bash
+openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365
+```
 
 ## Usage Instructions
 
