@@ -23,4 +23,4 @@ RUN npm install -g http-server
 EXPOSE 5000
 
 # Step 9: Start the http-server to serve the built app
-CMD ["http-server", "build", "-p", "5000", "-S", "-C", "/certs/cert.pem", "-K", "/certs/key.pem"]
+CMD ["http-server", "build", "-p", "5000", "-S", "-C", "/certs/cert.pem", "-K", "/certs/key.pem", "--proxy", "https://localhost:5000?"]
