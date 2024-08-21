@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import seg from "../../Assets/Projects/band_seg.jpg";
-import nlp_rag from "../../Assets/Projects/nlp_rag.jpg";
+import langchain_logo from "../../Assets/Projects/langchain-logo.png";
 import gym_app from "../../Assets/Projects/gym_app.jpg";
+import resnet_png from "../../Assets/Projects/resnet_architecture.png";
 
 function Projects() {
   return (
@@ -20,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nlp_rag}
+              imgPath={langchain_logo}
               isBlog={false}
               title="NLP RAG"
               description="Developed a RAG system using Langchain, Llama3, and FAISS to answer questions about Kendrick Lamar's life and career. The project covers everything from dataset creation to model usage. Demonstrates end-to-end NLP pipeline implementation with a focus on efficiency and practical application."
@@ -50,6 +51,15 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resnet_png}
+              isBlog={false}
+              title="ResNet Fine-Tuning"
+              description="Fine tuning a ResNet model to classify images of different types of food. The project uses a custom built dataset scraped from the internet and ResNet34 model to achieve the goal. Final accuracy of 80% on heavily distorted images."
+              ghLink="https://github.com/gp-1108/ResNet_finetuning"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
