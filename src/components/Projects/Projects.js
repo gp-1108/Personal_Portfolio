@@ -6,6 +6,7 @@ import seg from "../../Assets/Projects/band_seg.jpg";
 import langchain_logo from "../../Assets/Projects/langchain-logo.png";
 import gym_app from "../../Assets/Projects/gym_app.png";
 import resnet_png from "../../Assets/Projects/resnet_architecture.png";
+import snake_ai from "../../Assets/Projects/snake_ai.jpg";
 
 function Projects() {
   return (
@@ -21,9 +22,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={seg}
+              isBlog={false}
+              title="People Segmentation"
+              description="Computer Vision project aiming to improve the accuracy for segmenting occluded people in images from the SotA Yolov8 model. The project uses a custom dataset and a modified Yolov8 model to achieve the goal."
+              ghLink="https://github.com/gp-1108/CV_Sport_Project"
+              demoLink="https://projects.gp-apps.org/player-segmentation"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={langchain_logo}
               isBlog={false}
-              title="NLP RAG"
+              title="Kendrick Lamar Chatbot"
               description="Developed a RAG system using Langchain, Llama3, and FAISS to answer questions about Kendrick Lamar's life and career. The project covers everything from dataset creation to model usage. Demonstrates end-to-end NLP pipeline implementation with a focus on efficiency and practical application."
               ghLink="https://github.com/gp-1108/NLP_RAG"
             />
@@ -42,12 +54,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={seg}
+              imgPath={snake_ai}
               isBlog={false}
-              title="People Segmentation"
-              description="Computer Vision project aiming to improve the accuracy for segmenting occluded people in images from the SotA Yolov8 model. The project uses a custom dataset and a modified Yolov8 model to achieve the goal."
-              ghLink="https://github.com/gp-1108/CV_Sport_Project"
-              demoLink="https://projects.gp-apps.org/player-segmentation"              
+              title="Reinforcement Learning on Snake"
+              description="This project showcases the development of a Reinforcement Learning (RL) agent capable of playing a slightly modified version of the classic Snake game. The project explores the Deep Q-Learning algorithm and uses Tensorflow to train the agent."
+              ghLink="https://github.com/gp-1108/snake-rl"
+              demoLink="https://projects.gp-apps.org/snake-game"
             />
           </Col>
 
