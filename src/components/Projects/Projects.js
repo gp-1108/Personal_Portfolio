@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import seg from "../../Assets/Projects/band_seg.jpg";
 import langchain_logo from "../../Assets/Projects/langchain-logo.png";
-import gym_app from "../../Assets/Projects/gym_app.jpg";
+import gym_app from "../../Assets/Projects/gym_app.png";
 import resnet_png from "../../Assets/Projects/resnet_architecture.png";
 
 function Projects() {
