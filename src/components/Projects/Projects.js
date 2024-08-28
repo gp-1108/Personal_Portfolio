@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Reinforcement Learning on Snake"
               description="This project showcases the development of a Reinforcement Learning (RL) agent capable of playing a slightly modified version of the classic Snake game. The project explores the Deep Q-Learning algorithm and uses Tensorflow to train the agent."
-              ghLink="https://github.com/gp-1108/snake-rl"
+              ghLink="https://github.com/gp-1108/snake_rl"
               demoLink="https://projects.gp-apps.org/snake-game"
             />
           </Col>
