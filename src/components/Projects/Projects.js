@@ -7,6 +7,7 @@ import langchain_logo from "../../Assets/Projects/langchain-logo.png";
 import gym_app from "../../Assets/Projects/gym_app.png";
 import resnet_png from "../../Assets/Projects/resnet_architecture.png";
 import snake_ai from "../../Assets/Projects/snake_ai.jpg";
+import llama from "../../Assets/Projects/llama31_dpo.png";
 
 function Projects() {
   return (
@@ -20,6 +21,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={llama}
+              isBlog={false}
+              title="Educational AI with Llama 3.1 & DPO"
+              description="Built an end-to-end pipeline to generate pedagogical dialogue datasets, fine-tune Llama 3.1 with parameter-efficient methods, and apply Direct Preference Optimization for Assessment for Learning."
+              ghLink="https://github.com/gp-1108/NLP_DPO-Finetuning"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={seg}
