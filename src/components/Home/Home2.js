@@ -18,8 +18,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Computer Science student at the University of Padua, who 
-              fell in love with coding a long time ago and is currently specializing in
+              I am a ML SWE at Swisscom in Bern, who 
+              fell in love with coding a long time ago and is specialized in
               Machine Learning/Data Science.
               <br />
               <br />I am fluent in 
@@ -41,8 +41,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              If I got the time I also like to experiment with <b className="purple">Node.js</b>, 
-              <b className="purple"> React.js and Next.js</b>
+              If I got the time I also like to experiment with <b className="purple">Node.js</b> and <b className="purple">Next.js</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
